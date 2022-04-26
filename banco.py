@@ -11,7 +11,11 @@ print(con)
 # ------------ SCRIPT ----------
 # create table tblProjetoAlgas (
 # 	id int primary key auto_increment,
-#     tempo_seg decimal(18, 2),
-#     espaco_byte decimal(18, 2),
-#     tipo_rage varchar(100)
+#     cidade varchar(45),
+#     produto varchar(45),
+#     pagamento varchar(45),
+
+#     tempoSeg decimal(18, 2),
+#     espacoByte decimal(18, 2),
+#     tipoRage varchar(100)
 # )
