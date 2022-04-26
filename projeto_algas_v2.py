@@ -33,7 +33,7 @@ def transaction(range):
         print(values)
         insert(values)
 
-print('*_* Menu *_*')
+print('---- [ MENU ] ----')
 print('Inserir')
 print('Sair')
  
@@ -48,5 +48,5 @@ while True:
       transaction(range(int(valorInicial), int(valorFinal), int(intervalo)))
 
     elif operation == 'Sair':
-        print('Valeu tmj, primo')
+        print('--- [ OPERAÇÃO ENCERRADA ] ---')
         break
