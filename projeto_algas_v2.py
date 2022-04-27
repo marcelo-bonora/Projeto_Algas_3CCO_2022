@@ -8,7 +8,7 @@ def insert(values):
 
   mycursor.execute(sql, values)
 
-  mydb.commit()
+  banco.con.commit()
   print(mycursor.rowcount, "record inserted.")
 
 cidades = ['Sao Paulo', 'Rio de Janeiro', 'Florianopolis', 'Curitiba', 'Alagoas', 'Natal']
