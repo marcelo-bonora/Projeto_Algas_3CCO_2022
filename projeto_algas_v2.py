@@ -13,8 +13,8 @@ def insert(values):
 
 cidades = ['Sao Paulo', 'Rio de Janeiro',]
 produtos = ['Bebidas', 'Carnes']
-pagamento = ['Debito', 'Credito']
-semana = ['Domingo', 'Sabado']
+pagamento = ['Dinheiro']
+semana = ['Domingo','Sabado']
 
 def transaction(range):
     tempo_inicial = (time.time())
