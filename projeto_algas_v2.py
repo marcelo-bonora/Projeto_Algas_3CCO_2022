@@ -4,7 +4,7 @@ import banco
 mycursor = banco.con.cursor()
 
 def insert(values):
-  sql = "INSERT INTO algas (cidade, produto, pagamento, dia, valor, tempo, memoria) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+  sql = "INSERT INTO tblProjetoAlgas (cidade, produto, formaPagamento, dia, quantidade, tempoSeg, tamanhoByte) VALUES (%s, %s, %s, %s, %s, %s, %s)"
 
   mycursor.execute(sql, values)
 
