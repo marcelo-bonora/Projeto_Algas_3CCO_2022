@@ -12,7 +12,7 @@ def insert(values):
   print(mycursor.rowcount, "record inserted.")
 
 cidades = ['Sao Paulo', 'Rio de Janeiro', 'Florianopolis', 'Curitiba', 'Alagoas', 'Natal']
-produtos = [ 'Pão']
+produtos = ['Bebidas', 'Carnes', 'Frutas e Vegetais', 'Condimentos', 'Salgados', 'Pão']
 pagamento = ['Dinheiro', 'Debito', 'Credito']
 semana = ['Domingo', 'Segunda', 'Terca', 'Quarta', 'Quinta', 'Sexta', 'Sabado']
 
