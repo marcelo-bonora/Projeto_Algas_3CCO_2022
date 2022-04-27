@@ -11,10 +11,10 @@ def insert(values):
   banco.con.commit()
   print(mycursor.rowcount, "record inserted.")
 
-cidades = ['Sao Paulo', 'Rio de Janeiro']
-produtos = ['Bebidas', 'Carnes']
+cidades = ['Sao Paulo', 'Rio de Janeiro', 'Florianopolis', 'Curitiba', 'Alagoas', 'Natal']
+produtos = [ 'Pão']
 pagamento = ['Dinheiro', 'Debito', 'Credito']
-semana = ['Segunda', 'Terca', 'Quarta', 'Quinta', 'Sexta']
+semana = ['Domingo', 'Segunda', 'Terca', 'Quarta', 'Quinta', 'Sexta', 'Sabado']
 
 def transaction(range):
     tempo_inicial = (time.time())
