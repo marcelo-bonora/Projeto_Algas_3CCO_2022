@@ -11,7 +11,7 @@ def insert(values):
   banco.con.commit()
   print(mycursor.rowcount, "record inserted.")
 
-cidades = ['Sao Paulo', 'Rio de Janeiro']
+cidades = ['Sao Paulo', 'Rio de Janeiro',]
 produtos = ['Bebidas', 'Carnes']
 pagamento = ['Debito', 'Credito']
 semana = ['Domingo', 'Sabado']
@@ -20,11 +20,11 @@ def transaction(range):
     tempo_inicial = (time.time())
     lista = []
     for item in range:
-        cidade = cidades[random.randrange(0, (len(cidades)-1), 1)]
-        produto = produtos[random.randrange(0, (len(produtos)-1), 1)]
-        formaPagamento = pagamento[random.randrange(0, (len(pagamento)-1), 1)]
-        dia = semana[random.randrange(0, (len(semana)-1), 1)]
-        quantidade = random.randint(1, 1000)
+        cidade = cidades[random.randrange(0, (len(cidades)), 1)]
+        produto = produtos[random.randrange(0, (len(produtos)), 1)]
+        formaPagamento = pagamento[random.randrange(0, (len(pagamento)), 1)]
+        dia = semana[random.randrange(0, (len(semana)), 1)]
+        quantidade = random.randint(1, 10)
         tempo_append = (time.time())
         tempo_final = (tempo_append - tempo_inicial)
         lista.append(item)
